@@ -72,8 +72,8 @@ public class PrefUtil {
 	public PrefUtil getProps () {
 		Preferences prefs = Preferences.systemNodeForPackage(PrefUtil.class);
 		this.url = prefs.get("BLTI_URL", "http://wiscrowd.appspot.com/wiscrowd");
-		this.key = prefs.get("BLTI_KEY", "12345");
-		this.secret = prefs.get("BLTI_SECRET", "secret");
+		this.key = prefs.get("BLTI_KEY", "b3b58051837a4841");
+		this.secret = prefs.get("BLTI_SECRET", "5d639907ad554589");
 		
 		return this;
 	}

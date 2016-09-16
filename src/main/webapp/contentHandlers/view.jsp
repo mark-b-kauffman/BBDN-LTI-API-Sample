@@ -81,9 +81,9 @@
     return;
 
   Preferences prefs = Preferences.systemRoot();
-  bltiUrl = prefs.get( BLTI_URL,"http://www.imsglobal.org/developers/LTI/test/v1p1/tool.php" );
-  bltiKey = prefs.get( BLTI_KEY, "blti_key_default" );
-  bltiSecret = prefs.get( BLTI_SECRET, "secret" );
+  bltiUrl = prefs.get( BLTI_URL,"https://provider.azurewebsites.net/Tool/1103" );
+  bltiKey = prefs.get( BLTI_KEY, "b3b58051837a4841" );
+  bltiSecret = prefs.get( BLTI_SECRET, "5d639907ad554589" );
   
   BbPersistenceManager bbPm = PersistenceServiceFactory.getInstance().getDbPersistenceManager();
   Container bbContainer = bbPm.getContainer();
