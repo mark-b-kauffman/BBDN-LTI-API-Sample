@@ -95,9 +95,9 @@ blackboard.platform.vxi.service.VirtualInstallationManagerFactory"
         }
       
         Preferences prefs = Preferences.systemRoot();
-        bltiUrl = prefs.get( BLTI_URL,"https://provider.azurewebsites.net/Tool/1103" );
-        bltiKey = prefs.get( BLTI_KEY, "b3b58051837a4841" );
-        bltiSecret = prefs.get( BLTI_SECRET, "5d639907ad554589" );
+        bltiUrl = prefs.get( BLTI_URL,"http://kauffmanmark.com/imsphp/tool.php" );
+        bltiKey = prefs.get( BLTI_KEY, "12345" );
+        bltiSecret = prefs.get( BLTI_SECRET, "secret" );
       
         pageContext.setAttribute("bltiUrl",bltiUrl);
         pageContext.setAttribute("bltiKey",bltiKey);
