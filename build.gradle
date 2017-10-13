@@ -9,7 +9,7 @@ apply plugin: "idea"
 
 // define the version for the project when publishing to maven
 group "com.blackboard.developer"
-version "1.0-SNAPSHOT"
+version "1.9.3-SNAPSHOT"
 
 ext {
   learnVersion = "9.1.120113.0"
