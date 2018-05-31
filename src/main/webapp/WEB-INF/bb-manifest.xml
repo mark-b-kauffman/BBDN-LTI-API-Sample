@@ -43,7 +43,7 @@
     <handle value= "lti1.1 Sample"/>
     <description value= "Sample code demonstrating the LTI 1.1 connection APIs"/>
     <default-locale value="en_US"/>
-    <version value= "1.9.3"/>
+    <version value= "1.9.5"/>
     <requires>
     	<bbversion value="9.1.0"/>
     </requires>
@@ -193,6 +193,7 @@
       <permission type="blackboard.platform.blti.BasicLTIPermission" name="dr-chuck.com" actions="sendroles,sendemail,sendname"/>
       <permission type="blackboard.platform.blti.BasicLTIPermission" name="provider.azurewebsites.net" actions="sendroles,sendemail,sendname"/>
       <permission type="blackboard.platform.blti.BasicLTIPermission" name="kauffmanmark.com" actions="sendroles,sendemail,sendname"/>
+      <permission type="blackboard.platform.blti.BasicLTIPermission" name="*" actions="sendroles,sendemail,sendname"/>
       <permission type="basiclti" name="training.drexel.goaefis.net" actions="sendroles,sendemail,sendname,sendbatchuid"/>
       <permission type="blackboard.platform.blti.BasicLTIPermission" name="www.imsglobal.org" actions="sendroles,sendemail,sendname"/>
     </permissions>
